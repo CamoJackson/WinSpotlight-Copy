@@ -5,7 +5,7 @@ echo "Hello"
 echo "Hello"
 echo "Hello"
 ren * *.jpg
-FOR %%n in (Users\%Username%\Pictures\"Windows Spotlight" *.jpg) DO If %%~zn LSS 30000 (
+FOR %%n in (Users\%Username%\Pictures\"Windows Spotlight" *.jpg) DO If %%~zn LSS 45000 (
 del %%n
 echo Deleted
 )
